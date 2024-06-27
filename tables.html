@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>food scarcity</title>
+    <style>
+        table{
+            border-collapse;
+            padding: 15px;
+            border: 20px solid red;
+            margin: auto;
+        }
+        caption{
+            border: 10px solid red;
+            font-size: 55px;
+            padding-block: 20px;
+            font-style: italic;
+            background-color: brown;
+        }
+
+        table tr{
+            border: 5px solid green;
+            
+
+        }
+
+        table th, table td{
+            border-inline: 10px double skyblue;
+            padding: 20px;
+        }
+        table footer{
+            padding-left: 30px;
+        }
+        
+    </style>
+</head>
+<body>
+    <table>
+        <caption>my food menu</caption>
+        <!--(thead>tr>th*4)+(tbody>(tr>th+td*3)*5)+tfoot>tr>td-->
+        <thead>
+            <tr>
+                <th scope="col">days/meal</th>
+                <th>breakfast</th>
+                <th>lunch</th>
+                <th>dinner</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">monday</th>
+                <td>rice and beans</td>
+                <td>indomie and egg</td>
+                <td>rice and beans</td>
+            
+            </tr>
+            <tr>
+                <th scope="row">tuesday</th>
+                <td>bread and egg</td>
+                <td>spaggetti and tea</td>
+                <td>egusi soup and fufu</td>
+            </tr>
+            <tr>
+                <th scope="row">wednesday</th>
+                <td>hot dog</td>
+                <td>vegetable soup and eba</td>
+                <td>bitter leaf soup and fufu</td>
+            </tr>
+            <tr>
+                <th scope="row">thursday</th>
+                <td>bread and tea</td>
+                <td>chicken sharwarma</td>
+                <td>rice and tea</td>
+            </tr>
+            <tr>
+                <th scope="row">friday</th>
+                <td>yam and egg</td>
+                <td>turkey pepper soup</td>
+                <td> yam and stew</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>change after each season</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

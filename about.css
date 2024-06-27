@@ -1,0 +1,29 @@
+p::selection{
+    background-color: blue;
+    color: aliceblue;
+}
+
+a{
+    color: blue;
+}
+
+a:hover{
+    color: chartreuse;
+}
+
+ul li:first-of-type{
+    background-color: blue;
+}
+
+li:last-of-type{
+    background-color: yellow;
+}
+
+ul :nth-child(4){
+    background-color: purple;
+}
+
+li#id001{
+    text-transform: capitalize;
+    padding: 30px;
+}
